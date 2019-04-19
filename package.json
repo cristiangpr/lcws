@@ -1,0 +1,22 @@
+{
+  "name": "lcws",
+  "version": "1.0.0",
+  "description": "my site",
+  "main": "src/server.js",
+  "scripts": {
+    "test": " set NODE_ENV=test&& jasmine",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
+  }
+}

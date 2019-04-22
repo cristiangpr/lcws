@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <main class="container">
+
+
+      <h1>Messages</h1>
+
+      <ul class="list-group">
+<!-- #1 -->
+        <% messages.forEach((message) => { %>
+<!-- #2 -->
+          <li class="list-group-item">
+            <a href="/messages/<%= message.id %>"> <%= message.name %> </a>
+          </li>
+        <% }) %>
+      </ul>
+
+    </main>
+  </body>
+</html>
